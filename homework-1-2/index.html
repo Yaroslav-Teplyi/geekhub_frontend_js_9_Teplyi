@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend><b>Коротко о себе</b></legend>
+
+            <div class="div-padding">
+                <label>Имя:</label>
+                <input type="text">
+            </div>
+            <div class="div-padding">
+                <label>Фамилия:</label>
+                <input type="text">
+            </div>
+            <div class="div-padding">
+                <label>Пол:</label>
+                <div class="div-inline"><input type="radio" name="sex" value="sex1">Мужчина</div> 
+                <div class="div-inline"><input type="radio" name="sex" value="sex2">Женщина</div>
+                <div class="div-inline"><input type="radio" name="sex" value="sex2">Остальное</div> 
+            </div>
+            <div class="div-padding">
+                <label>Возраст:</label>
+                <input type="number" min="1" max="99">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Подробнее о себе</b></legend>
+
+            <div>
+                <div><input type="radio" name="sex" value="sex1">Мужчина</div> 
+                <div><input type="radio" name="sex" value="sex2">Женщина</div>
+            </div>
+            <div class="div-padding">
+                <div>
+                    <input type="date" id="input-smaller">
+                    <label>День рождения</label>
+                </div>
+                <div>
+                    <input type="text" id="input-smaller">
+                    <label>Семейное положение</label>
+                </div>
+                <div>
+                    <input type="text" id="input-smaller">
+                    <label>Социальный статус</label>
+                </div>
+                <div>
+                    <input type="text" id="input-smaller">
+                    <label>Местожительство</label>
+                </div>
+            </div>
+
+            <div class="div-padding"><b>Что вы обычно делаете на выходных:</b></div>
+            <div class="div-padding">
+                <div>
+                    <input type="checkbox">
+                    <label>Сплю</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Гуляю</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Хожу на рыбалку</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Играю в игры</label>
+                </div>
+            </div>
+
+            <div class="div-padding"><b>Рассказать о формах в книге, посвященной HTML:</b></div>
+            <div class="div-padding">
+                <select name="form-html">
+                    <option>H</option>
+                    <option>T</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+            </div>
+
+            <div class="div-padding"><b>Сколько книг вы прочитали за свою жизнь:</b></div>
+            <div class="div-padding">
+                <div><input type="radio" name="book" value="book1">0-10</div> 
+                <div><input type="radio" name="book" value="book2">11-20</div>
+                <div><input type="radio" name="book" value="book3">21-50</div> 
+                <div><input type="radio" name="book" value="book4">50+</div>
+            </div>
+
+            <div><b>Ваши комментарии:</b></div>
+            <div class="div-padding">
+                <textarea name="comment"></textarea>
+            </div>
+            <div class="div-padding">
+                <select name="position" size="4">
+                    <option>pos 1</option>
+                    <option>pos 2</option>
+                    <option>pos 3</option>
+                    <option>pos 4</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>И в заключении</legend>
+
+            <div class="div-padding">
+                <input type="text" placeholder="Это поле было введено до вас"><!--Возможно я не так понял и тут должно быть атрибут value вместо placeholder-->
+            </div>
+
+            <div class="div-padding">
+                <div><b>Email:</b></div>
+                <input type="email">
+            </div>
+
+            <div class="div-padding">
+                <div><b>Хотите подписаться на самую модную рассылку спама?</b></div>
+                <div><i>Выберете категории</i></div>
+            </div>
+
+            <div class="div-padding">
+                <div>
+                    <input type="checkbox">
+                    <label>Оборудование</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Как приготовить обеды</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Заработай миллион за два дня!</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>На все сразу!</label>
+                </div>
+            </div>
+
+            <div class="div-padding"><b>На сколько сложная задача:</b></div>   
+                
+            <div><input type="radio" name="difficult" value="diff1">Немножно тяжело</div>
+            <div><input type="radio" name="difficult" value="diff2">Узнал много нового</div>
+            
+        </fieldset>
+
+        <div><input type="submit"></div>
+
+    </form>
+</body>
+</html>

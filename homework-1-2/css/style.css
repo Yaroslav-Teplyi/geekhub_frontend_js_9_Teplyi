@@ -1,0 +1,24 @@
+fieldset {
+    margin-bottom: 10px;
+}
+
+.div-inline {
+    display: inline;
+}
+
+.div-padding {
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 300px;
+}
+
+#input-smaller{
+    width: 200px;
+}
